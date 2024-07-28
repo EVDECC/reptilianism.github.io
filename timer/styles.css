@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto&display=swap');
+
+:root {
+    background-color: #05503c;
+    color: white;
+}
+
+body {
+    margin: 0px auto;
+    max-width: 800px;
+    line-height:1.6;
+    font-size:18px;
+    padding:010px;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+#logo {
+    font-size: 350%;
+    display: flex;
+    float: left;
+    align-items: middle;
+}
+
+#site-header {
+    font-family: 'Oswald', sans-serif;
+    line-height: 75%;
+    float: left;
+}
+
+#banner {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+#banner-menu {
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 2px;
+    border: 1px solid white;
+}
+  
+#banner-menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0.5em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h2 {
+    line-height: 30px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#timer-system {
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    padding: 0.25em;
+  }
+  
+#race-controls {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+  
+#timer {
+    margin-left: 20px;
+    align-content: center;
+}
+
+#canvas-container {
+    max-width: 900px;
+    float: left;
+}

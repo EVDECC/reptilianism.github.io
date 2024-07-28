@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reptilianism.org</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.webp">
+</head>
+
+<body>
+    <div id="banner">
+        <p id="logo">🦎</p><br>
+        <div id="site-header">
+            <h1>Reptilianism.org</h1>
+            <h2>Because Reality is a Difference of Opinion</h2>
+        </div>
+    </div>
+
+    <div id="banner-menu">
+        <table>
+            <tr>
+                <td><a href="/">Home</a></td>
+                <td><a href="/timer">Snail Racing Timer</a></td>
+                <td><a href="/prose">Very Real News</a></td>
+                <td><a href="/wrongness">Original Site</a></td>
+                <td><a href="/about">About the Author</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="timer-system">
+        <div id="race-controls">
+            <form id="time">
+            <label for="time">Minutes:</label>
+            <input id="time-form" name="time-input" type="number" min="0" title="Time" placeholder=""/>
+            <input id="start" type="button" value="START"/>
+            <button id="pause-resume" type="button">PAUSE</button>
+            <button id="clear" type="button">CLEAR</button>
+            <div id="timer">
+                <div id="minutes"></div>
+                <div id="seconds"></div>
+            </div>
+        </form>  
+        </div>
+    </div>
+</body>
+<div id="canvas-container">
+    <canvas id="canvas" width="800" height="450"></canvas>
+    <script src="index.js"></script></div>
+</html>
